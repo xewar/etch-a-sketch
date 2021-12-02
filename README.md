@@ -1,4 +1,4 @@
-This is my very web first project - risograph-inspired etch-a-sketch. I made this project while working through the Odin Project's Foundations course in December 2021.
+This is my very web first project - a risograph-inspired etch-a-sketch. I made this project while working through the Odin Project's Foundations course in December 2021.
 
 **About Riso**
 Risograph or 'riso' printers are digital printers that layer each color with bright, semi-transparent inks. It became popular with zine-makers and illustators because it's an easy and scalable way to emulate the look of screen-printing, and because of the availability of a beautiful range of bright colors in the inks. I first learned about riso printing at the School of Visual Arts Riso Lab in NYC (https://risolab.sva.edu/). 
