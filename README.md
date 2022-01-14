@@ -1,4 +1,4 @@
-View the live project [here](https://xewar.github.io/etch-a-sketch/)
+View the live project [here](https://xewar.github.io/etch-a-sketch/).
 
 This is my very web first project - a risograph-inspired etch-a-sketch. I made this project while working through the Odin Project's Foundations course in December 2021.
 
