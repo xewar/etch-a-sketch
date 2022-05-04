@@ -1,3 +1,7 @@
+
+<img src="https://github.com/xewar/projectThumbnails/blob/eac75ed24fa52f136b1d08ab36099e5fe7bbb612/etchASketch.png">
+
+
 View the live project [here](https://xewar.github.io/etch-a-sketch/).
 
 This is my very web first project - a risograph-inspired etch-a-sketch. I made this project while working through the Odin Project's Foundations course in December 2021.
