@@ -1,6 +1,6 @@
 
-<img src="https://github.com/xewar/projectThumbnails/blob/eac75ed24fa52f136b1d08ab36099e5fe7bbb612/etchASketch.png">
-
+<a href="https://xewar.github.io/etch-a-sketch/">
+<img src="https://github.com/xewar/projectThumbnails/blob/eac75ed24fa52f136b1d08ab36099e5fe7bbb612/etchASketch.png" width="600"></a>
 
 View the live project [here](https://xewar.github.io/etch-a-sketch/).
 
