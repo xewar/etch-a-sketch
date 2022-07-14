@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/> 
+    <title>Risograph Etch-a-sketch</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+       <p>Riso etch-a-sketch</p> 
+    </div>
+    <div class ='body'>
+        <div class='top'>Choose a Color</div>
+        <div class="middle">
+            <div class="leftColumn">
+                <button id="risoBlue" class="color">Blue</button>
+                <button id="teal" class="color">Teal</button>
+                <button id="yellow"class="color">Yellow</button>
+                <button id="pink" class="color">Pink</button>
+                <button id="brightRed" class="color">Red</button>
+                <div class="saturationContainer">
+                    <button id="saturation" class= "twenty"></button>
+                    <button id="saturation" class= "forty"></button>
+                    <button id="saturation" class= "sixty"></button>
+                    <button id="saturation" class= "eighty"></button>
+                    <button id="saturation" class= "hundred"></button>
+                </div>
+                <div class="resetDownload">
+                    <button id="reset">Reset</button>
+                    <a href="" id="downloadIcon">
+                        <svg class="download" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 505.2 537.3" style="enable-background:new 0 0 505.2 537.3;" xml:space="preserve">
+                        <path fill="#3d5588" d="M497.7,537.3H7.6c-4.2,0-7.6-3.4-7.6-7.6V419.5c0-4.2,3.4-7.6,7.6-7.6s7.6,3.4,7.6,7.6v102.7h475V419.5
+                            c0-4.2,3.4-7.6,7.6-7.6s7.6,3.4,7.6,7.6v110.3c0,2-0.8,3.9-2.2,5.4C501.6,536.5,499.7,537.3,497.7,537.3L497.7,537.3z"/>
+                        <path fill="#3d5588" d="M252.6,451.5c-4.2,0-7.6-3.4-7.6-7.6V15.1c0-4.2,3.4-7.6,7.6-7.6s7.6,3.4,7.6,7.6V444c0,2-0.8,3.9-2.2,5.4
+                            C256.5,450.7,254.6,451.5,252.6,451.5z"/>
+                        <path fill="#3d5588" d="M252.6,451.5c-2,0-3.9-0.8-5.4-2.2L142.7,344.7c-2.9-3-2.8-7.7,0.1-10.6c2.9-2.9,7.6-3,10.6-0.1l99.2,99.2l99.2-99.2
+                            c3-2.9,7.7-2.8,10.6,0.1c2.9,2.9,3,7.6,0.1,10.6L258,449.3C256.5,450.7,254.6,451.5,252.6,451.5L252.6,451.5z"/>
+                        </svg>
+                        
+                    </a>
+
+                </div>
+                <div class="gridSize">Grid Size</div>
+                <div class="sizes">
+                        <button id="size" class='6'>s</button>
+                        <button id="size" class = '9'>m</button>
+                        <button id="size" class = '16'>l</button>
+                </div>
+            </div>
+            <div class="grid"></div>
+    </div>
+</body>
+
+
+</html>
