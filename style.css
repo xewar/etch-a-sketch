@@ -1,127 +1,149 @@
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    color: #3D5588;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  color: #3d5588;
 }
 
-.header{
-    display: flex;
-    background-color: #ffea008a;
-    height: 80px;
-    align-items: center;
-    font-size: 32px;
+.header {
+  display: flex;
+  background-color: #ffea008a;
+  height: 80px;
+  align-items: center;
+  font-size: 32px;
 }
 
-.body{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 60px;
-    /* justify-content: center; */
+.body {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 60px;
+  /* justify-content: center; */
 }
 
-.top{
-    /* display:flex; */
-    /* width: 100px; */
-    font-size: larger;
-    margin-left:30px;
+.top {
+  /* display:flex; */
+  /* width: 100px; */
+  font-size: larger;
+  margin-left: 30px;
 }
-.middle{
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: row;
+.middle {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
 }
-p{
-    margin-left: 30px;
-}
-
-.leftColumn{
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-left: 30px;
-    align-items:flex-start;
-    font-size: larger;
+p {
+  margin-left: 30px;
 }
 
-button{
-    font-family: 'Courier New', Courier, monospace;
-    /* text-transform: uppercase; */
-    font-size: large;
-    border: none;
-    padding: 10px;
-    width: 100px;
-    border-radius: 2px;
-    color: #3D5588;
-}
-#risoBlue{
-    background-color: #3D5588;
-    color: white;
-}
-#yellow{
-    background-color: #FFE800;
-    color: #3D5588;
-    /* mix-blend-mode: color; */
-}
-#pink{
-    background-color: #FF48B0;
-    color: #3D5588;
-}
-#brightRed{
-    background-color: #F15060;
-    color: #3D5588;
-}
-#teal{
-    background-color: #00838A;
-    color: white;
-}
-.saturationContainer{
-    display: flex;
-    font-size: x-small;
-    flex-wrap: wrap;
-    gap: 4px;
-    width: 100px;
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: minmax(30px, 40px);
+  align-items: flex-start;
+  font-size: larger;
+  margin-right: 8%;
 }
 
-#saturation{
-    font-size: 12px;
-    width: 30px;
+button {
+  font-family: 'Courier New', Courier, monospace;
+  /* text-transform: uppercase; */
+  font-size: 0.9em;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 2px;
+  color: #3d5588;
+}
+#risoBlue {
+  background-color: #3d5588;
+  color: white;
+}
+#yellow {
+  background-color: #ffe800;
+  color: #3d5588;
+  /* mix-blend-mode: color; */
+}
+#pink {
+  background-color: #ff48b0;
+  color: #3d5588;
+}
+#brightRed {
+  background-color: #f15060;
+  color: #3d5588;
+}
+#teal {
+  background-color: #00838a;
+  color: white;
+}
+.saturationContainer {
+  display: flex;
+  font-size: x-small;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 100px;
 }
 
-.gridSize, #reset{
-    margin-top: 40px;
-}
-.sizes{
-    display: flex;
-    width: 30px;
-    gap: 4px;
-}
-#reset{
-    background-color: #3d558856;
-}
-.grid{
-    display: flex;
-    flex-flow: row wrap;
-    width: 45%;
-    height: 45%;
-    margin-left: 8%;
-}
-.row{
-    display: flex;
-    width: 100%;
+#saturation {
+  font-size: 12px;
+  width: 30px;
 }
 
-.gridSquare{
-    display: flex;
-    flex: 1 0 auto;
-    height: auto;
-    background-color: white;
+.gridSize,
+.resetDownload {
+  margin-top: 30px;
+}
+.sizes {
+  display: flex;
+  width: 30px;
+  gap: 4px;
+}
+#reset {
+  background-color: #3d558856;
+  width: 70px;
+}
+.resetDownload {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+a {
+  margin: none;
+  padding: none;
+  height: 39px;
+}
+
+.download {
+  height: 39px;
+  width: 16px;
+  background-color: #3d558856;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 40vw;
+  height: 40vw;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.gridSquare {
+  display: flex;
+  flex: 1 0 auto;
+  height: auto;
+  background-color: white;
 }
 
 .gridSquare:before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-    padding-right: 5px;
+  content: '';
+  display: block;
+  padding-top: 100%;
+  padding-right: 5px;
 }
