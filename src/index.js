@@ -1,4 +1,5 @@
 import './style.css';
+import html2canvas from 'html2canvas';
 
 //To change the color of a square, move your mouse over it
 let squares = document.querySelectorAll('div.gridSquare');
@@ -49,11 +50,33 @@ function changeGridSize() {
 let size = 9;
 changeGridSize();
 
-//downloading content
+//saving grid, from stackoverflow:
+//https://stackoverflow.com/questions/31656689/how-to-save-img-to-users-local-computer-using-html2canvas
+function saveAs(uri, filename) {
+  var link = document.createElement('a');
+
+  if (typeof link.download === 'string') {
+    link.href = uri;
+    link.download = filename;
+
+    //Firefox requires the link to be in the body
+    document.body.appendChild(link);
+
+    //simulate click
+    link.click();
+
+    //remove the link when done
+    document.body.removeChild(link);
+  } else {
+    window.open(uri);
+  }
+}
+
+//converting grid to canvas for a save via html2canvas
 let downloadImg = event => {
   event.preventDefault();
-  html2canvas(grid).then(canvas => {
-    document.body.appendChild(canvas);
+  html2canvas(grid).then(function (canvas) {
+    saveAs(canvas.toDataURL(), 'grid.png');
   });
 };
 let downloadIcon = document.getElementById('downloadIcon');
